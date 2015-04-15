@@ -1,0 +1,12 @@
+{
+  "main": "index.html",
+  "name": "WhatsApp",
+  "version": "1.0.1",
+  "window": {
+    "width": 860,
+    "height": 640,
+    "title": "WhatsApp",
+    "icon": "WhatsApp.png",
+    "toolbar": false
+  }
+}
