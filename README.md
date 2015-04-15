@@ -21,6 +21,11 @@ Supports only OSX as of now.
     # Build
     gulp
     
+## Downloads
+ 
+Download the DMG for OSX here.
+https://github.com/preems/whatsapp-desktop/releases/download/v1.0.1/WhatsApp.dmg
+    
 ## To Do
 
 * Support Windows and Linux
