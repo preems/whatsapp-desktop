@@ -1,4 +1,4 @@
-# WhatsApp for Desktop (Unofficial)
+# WhatsApp for Desktop (unofficial)
 
 Native desktop client for WhatsApp using whatsapp web interface. Your phone should be connected to internet to use this. 
 Supports only OSX as of now. 
@@ -8,7 +8,6 @@ Supports only OSX as of now.
 
 * Unread message count on Dock.
 * Desktop notifications.
-* Voice and video calls
 
 ## Build
 
