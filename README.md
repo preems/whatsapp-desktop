@@ -9,13 +9,9 @@ Native multi-platform desktop client for WhatsApp using whatsapp web interface. 
 * Desktop notifications.
 
 ## Downloads
- 
-For MAC 
-https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsApp.dmg
-
-For Windows
-( 64 bit ) https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsAppWin64.exe
-( 32 bit ) https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsAppWin32.exe
+ * [Mac](https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsApp.dmg)
+ * [Windows 64bit](https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsAppWin64.exe)
+ * [Windows 32bit](https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsAppWin64.exe)
 
 ## Build
 
