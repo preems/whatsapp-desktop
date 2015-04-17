@@ -12,6 +12,10 @@ if(platform==='win') {
 	var menu = new gui.Menu();
     menu.append(new gui.MenuItem({ label: 'Open WhatsApp', click: function() { win.show(); } }));
     menu.append(new gui.MenuItem({ label: 'Close WhatsApp', click: function() { win.close(true); } }));
+    tray.on('click',function() {
+    	win.show();
+    });
+
     tray.menu = menu;
 }         
 
