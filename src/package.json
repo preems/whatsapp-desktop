@@ -2,7 +2,9 @@
   "main": "index.html",
   "name": "WhatsApp",
   "version": "1.0.1",
+  "description":"A desktop client for WhatsApp",
   "window": {
+    "show":false,
     "width": 860,
     "height": 640,
     "title": "WhatsApp",
