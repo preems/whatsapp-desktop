@@ -51,15 +51,6 @@ gulp.task('build-win32', function() {
 		}));
 });
 
-gulp.task('build-linux32', function() {
-	return gulp.src(['./src/**'])
-		.pipe(builder({
-			winIco:'./assets/WhatsApp.ico',
-			platforms:['linux32'],
-			appName:'WhatsApp'
-		}));
-});
-
 gulp.task('package-osx64', ['clean-osx64','build-osx64'], function() {
 	return gulp.src([])
 		.pipe(appdmg({

@@ -8,6 +8,11 @@ Native multi-platform desktop client for WhatsApp using whatsapp web interface. 
 * Unread message count on Dock.
 * Desktop notifications.
 
+## Downloads
+ * [Mac](https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsApp.dmg)
+ * [Windows 64bit](https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsAppWin64.exe)
+ * [Windows 32bit](https://github.com/preems/whatsapp-desktop/releases/download/v1.1.1/WhatsAppWin64.exe)
+
 ## Build
 
 
@@ -32,13 +37,6 @@ Native multi-platform desktop client for WhatsApp using whatsapp web interface. 
     //By default gulp will build for all platforms. Avoid using it if you dont have all dependencies.
     $ gulp
     
-## Downloads
- 
-Download the DMG for OSX here.
-https://github.com/preems/whatsapp-desktop/releases/download/v1.0.1/WhatsApp.dmg
-    
-## To Do
 
-* Package in a installer for windows
 
 Please raise issues on github if you face any problem.
