@@ -40,3 +40,5 @@ Native multi-platform desktop client for WhatsApp using whatsapp web interface. 
 
 
 Please raise issues on github if you face any problem.
+
+[Checkout more about me and my projects](http://preetham.in)
