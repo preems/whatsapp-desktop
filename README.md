@@ -11,17 +11,26 @@ Native multi-platform desktop client for WhatsApp using whatsapp web interface. 
 ## Build
 
 
-    # install gulp
-    npm install -g gulp
+    // install gulp
+    $ npm install -g gulp
 
-    # install dependencies
-    npm install
+    // install dependencies
+    $ npm install
     
-    # Build
-    gulp
+    // OSX Build
+    $ gulp package-osx64
     
-    # Windows build ( Requires wine on OSX/Linux. Does not pack a installer )
-    gulp build-win64
+    // Windows build ( Requires wine on OSX/Linux )
+    $ gulp build-win64
+    $ gulp build-win32
+    
+    // Packing a installer for windows. 
+    // This requires you to install "makensis" seperately.
+    $ gulp package-win64
+    $ gulp package-win32
+    
+    //By default gulp will build for all platforms. Avoid using it if you dont have all dependencies.
+    $ gulp
     
 ## Downloads
  

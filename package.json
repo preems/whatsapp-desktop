@@ -1,6 +1,6 @@
 {
   "name": "WhatsApp",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/preems/WhatsApp-Desktop"
@@ -10,5 +10,6 @@
     "gulp-appdmg": "git://github.com/aluxian/gulp-appdmg.git",
     "gulp-node-webkit-builder": "git://github.com/leftstick/gulp-node-webkit-builder.git",
     "gulp-rimraf": "^0.1.1",
+    "gulp-shell": "^0.4.1"
   }
 }
