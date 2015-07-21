@@ -1,6 +1,6 @@
 var gui = require('nw.gui');
 var win = gui.Window.get();
-
+var version = gui.App.manifest.version;
 
 var platform = process.platform;
 platform = /^win/.test(platform) ? 'win'
@@ -17,6 +17,13 @@ if(platform==='win') {
     });
 
     tray.menu = menu;
+}
+else if(platform=='osx64') {
+	var menu = new gui.Menu({type:'menubar'});
+	menu.createMacBuiltin('WhatsApp', {
+		hideEdit:false,
+	});
+	win.menu=menu;
 }         
 
 win.on('close',function(force) {
@@ -52,6 +59,21 @@ $('document').ready(function() {
 	win.on('new-win-policy', function(frame, url, policy) {
 	 gui.Shell.openExternal(url);
 	 policy.ignore();
+	});
+
+
+
+	//Check for Update
+	var updateURL='http://preetham.in/public/whatsapp/checkUpdate.php?version='+version+'&platform='+platform;
+
+	$.getJSON(updateURL,function(response) {
+		if(response.updateAvailable==true) {
+			//alert('New version of WhatsApp for Desktop is available. <a href="'+response.downloadLink+'">Click here to download.</a>');
+			if (confirm("New version of WhatsApp for Desktop is available. Would you like to download the update now ?")) {
+				gui.Shell.openExternal(response.downloadLink);
+				gui.App.quit();
+			}
+		}
 	});
 
 });

@@ -5,7 +5,8 @@ var appdmg = require('gulp-appdmg');
 var rm = require('gulp-rimraf');
 var shell = require('gulp-shell');
 
-VERSION='1.0.1';
+VERSION = '1.1.1';
+NW_VERSION = 'v0.12.2';
 
 gulp.task('create-dist',shell.task([
 		'mkdir -p dist'
@@ -29,6 +30,7 @@ gulp.task('build-osx64', function() {
 		.pipe(builder({
 			macIcns:'./assets/WhatsApp.icns',
 			platforms:['osx64'],
+			version:NW_VERSION,
 			appName:'WhatsApp'
 		}));
 });
@@ -38,6 +40,7 @@ gulp.task('build-win64', function() {
 		.pipe(builder({
 			winIco:'./assets/WhatsApp.ico',
 			platforms:['win64'],
+			version:NW_VERSION,
 			appName:'WhatsApp'
 		}));
 });
@@ -47,6 +50,7 @@ gulp.task('build-win32', function() {
 		.pipe(builder({
 			winIco:'./assets/WhatsApp.ico',
 			platforms:['win32'],
+			version:NW_VERSION,
 			appName:'WhatsApp'
 		}));
 });

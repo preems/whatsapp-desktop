@@ -1,8 +1,9 @@
 {
   "main": "index.html",
   "name": "WhatsApp",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description":"A desktop client for WhatsApp",
+  "author":"Preetham MS <me@preetham.in>",
   "window": {
     "show":false,
     "width": 860,

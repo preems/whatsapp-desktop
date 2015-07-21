@@ -1,6 +1,7 @@
 {
   "name": "WhatsApp",
-  "version": "1.1.1",
+  "version": "1.2.1",
+  "author":"Preetham MS <me@preetham.in>",
   "repository": {
     "type": "git",
     "url": "https://github.com/preems/WhatsApp-Desktop"
