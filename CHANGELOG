@@ -1,0 +1,10 @@
+v1.2.1
+1. Bundled mp3 codec. Videos and audio will work now.
+2. Notification to download new versions.
+3. Fixed Copy/Paste issue on mac. 
+
+v1.1.1
+1. Works on windows
+2. Saves window state and reopens in same state.
+3. Tray icon in windows.
+4. Hides instead of closing on clicking cross button. 
